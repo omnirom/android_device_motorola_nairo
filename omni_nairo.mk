@@ -25,6 +25,7 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 29
 TARGET_BOOTANIMATION_SIZE := 1080p
 
 $(call inherit-product, device/motorola/sm7250_common/omni-sm7250_common.mk)
+$(call inherit-product, device/motorola/nairo/device.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
