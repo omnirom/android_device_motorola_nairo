@@ -19,6 +19,10 @@
 # product configuration (apps).
 #
 
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,device/motorola/nairo/prebuilt/product,product)
+
 #Nfc
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0 \
