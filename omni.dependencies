@@ -25,8 +25,14 @@
   },
   {
     "remote": "omnirom",
-    "repository": "android_vendor_qcom_opensource_fm-commonsys",
-    "target_path": "vendor/qcom/opensource/fm-commonsys",
+    "repository": "android_device_motorola_dynamic_common",
+    "target_path": "device/motorola/dynamic_common",
+    "revision": "android-11"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_device_motorola_sm7250_common",
+    "target_path": "device/motorola/sm7250_common",
     "revision": "android-11"
   }
 ]
