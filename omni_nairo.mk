@@ -24,6 +24,10 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 29
 # must be before including omni part
 TARGET_BOOTANIMATION_SIZE := 1080p
 
+PRODUCT_COPY_FILES += \
+    device/motorola/nairo/prebuilt/dtb.img:dtb.img
+
+
 $(call inherit-product, device/motorola/sm7250_common/omni-sm7250_common.mk)
 $(call inherit-product, device/motorola/nairo/device.mk)
 
