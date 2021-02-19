@@ -27,6 +27,7 @@ TARGET_BOOTANIMATION_SIZE := 1080p
 PRODUCT_COPY_FILES += \
     device/motorola/nairo/prebuilt/dtb.img:dtb.img
 
+PRODUCT_BUILD_BOOT_IMAGE := false
 
 $(call inherit-product, device/motorola/sm7250_common/omni-sm7250_common.mk)
 $(call inherit-product, device/motorola/nairo/device.mk)
