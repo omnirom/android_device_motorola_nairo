@@ -34,5 +34,17 @@
     "repository": "android_device_motorola_sm7250_common",
     "target_path": "device/motorola/sm7250_common",
     "revision": "android-11"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_vendor_qcom_opensource_fm-commonsys",
+    "target_path": "vendor/qcom/opensource/fm-commonsys",
+    "revision": "android-11"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_packages_apps_MotoActions",
+    "target_path": "packages/apps/MotoActions",
+    "revision": "android-11"
   }
 ]
