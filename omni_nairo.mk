@@ -44,12 +44,12 @@ PRODUCT_MODEL := moto g 5G plus
 TARGET_DEVICE := nairo
 PRODUCT_SYSTEM_NAME := nairo_retail
 
-VENDOR_RELEASE := 10/QPN30.37-Q3-42-51/264b33:user/release-keys
+VENDOR_RELEASE := 10/QPN30.37-Q3-42-64/fe1037:user/release-keys
 BUILD_FINGERPRINT := motorola/nairo_retail/nairo:$(VENDOR_RELEASE)
 OMNI_BUILD_FINGERPRINT := motorola/nairo_retail/nairo:$(VENDOR_RELEASE)
-OMNI_PRIVATE_BUILD_DESC := "'nairo_retail-user 10 QPN30.37-Q3-42-51 264b33 release-keys'"
+OMNI_PRIVATE_BUILD_DESC := "'nairo_retail-user 10 QPN30.37-Q3-42-64 fe1037 release-keys'"
 
-PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-09-01
+PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-12-01
 
 TARGET_VENDOR := motorola
 
