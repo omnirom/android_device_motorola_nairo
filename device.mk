@@ -19,6 +19,11 @@
 # product configuration (apps).
 #
 
+AB_OTA_PARTITIONS += \
+    system \
+    vbmeta \
+    product
+
 # Prebuilt
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/motorola/nairo/prebuilt/product,product)
