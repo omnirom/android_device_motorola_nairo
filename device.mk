@@ -43,3 +43,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.nairo
+
+PRODUCT_PACKAGES += \
+    MotoNairo

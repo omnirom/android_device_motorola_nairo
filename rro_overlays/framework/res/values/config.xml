@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="quick_qs_offset_height">120.0px</dimen>
+    <dimen name="status_bar_height">120.0px</dimen>
+    <dimen name="status_bar_height_landscape">24.0dip</dimen>
+    <dimen name="status_bar_height_portrait">120.0px</dimen>
+    <string name="config_mms_user_agent">motog5gplus</string>
+    <string name="wifi_tether_configure_ssid_default">moto g 5G plus</string>
+    <string name="config_mainBuiltInDisplayCutout">
+        M 0, 0
+        H 245
+        V 120
+        H 0
+        L 0, 0
+        @left
+    </string>
+
+</resources>
